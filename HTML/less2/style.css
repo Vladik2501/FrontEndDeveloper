@@ -1,0 +1,36 @@
+.father {
+    text-align: center;
+    background: #8d8c8c;
+    /*justify-content: center;*/
+}
+
+.headline {
+    font-size: 50px;
+}
+
+.information {
+    font-size: 30px;
+}
+
+.image {
+    border-radius: 5px;
+}
+
+button {
+    width: 450px;
+    background: #680568;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+button:hover {
+    background: red;
+}
+
+/*.null{*/
+/*    height: 50px;*/
+
+/*}*/
