@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.father{
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.header{
+    width: 900px;
+    height: 100px;
+    background: #34d9d1;
+    margin: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px
+
+}
+.wrap{
+    display: flex;
+}
+.hero{
+    width: 300px;
+    height: 300px;
+    background: #cb8fee;
+    box-sizing: border-box;
+    border: 5px solid black;
+border-radius: 10px;
+    margin:0 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px
+}
+.sidebar{
+    width: 300px;
+    height: 400px;
+    background: #2ab44b;
+    margin: 0 10px 10px 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px
+}
+.main_content{
+    width: 590px;
+    height: 500px;
+    background: #ffbf00;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px
+}
+.extra_content{
+    width: 590px;
+    margin: 0 10px 10px 0;
+    height: 200px;
+    background: gray;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px
+}
+.wrap2{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 590px;
+    height: 150px;
+    background: lightseagreen;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px
+}
+.post{
+    width: 300px;
+    height: 150px;
+    background: #a211ff;
+    margin:0 10px 10px 0;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px
+}
+.footer{
+    width: 900px;
+    height: 100px;
+    background: #ffaa00;
+    margin: 0 10px 10px 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px
+}

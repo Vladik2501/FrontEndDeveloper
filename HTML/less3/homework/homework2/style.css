@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.father {
+    border: 5px solid #a1a1a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+
+}
+
+.A {
+    width: 1010px;
+    background: #a1a1a1;
+    height: 250px;
+    margin: 10px;
+}
+
+.wrap {
+    display: flex;
+
+}
+
+.b {
+    width: 800px;
+    height: 490px;
+    background: #a1a1a1;
+    margin: 0 10px 10px 10px;
+}
+
+.c {
+    width: 200px;
+    background: #a1a1a1;
+    margin: 0 10px 10px 0;
+}
