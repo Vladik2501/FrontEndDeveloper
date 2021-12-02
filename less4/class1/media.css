@@ -1,0 +1,39 @@
+@media screen and (max-width: 375px) {
+    .father{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+    .part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.part2{
+    display: flex;
+    flex-direction: column;
+}
+.half1{
+    display: flex;
+    align-items: center;
+}
+.first{
+    width: 180px;
+}
+.second{
+    width: 120px;
+}
+.box{
+    width: 300px;
+}
+.balls{
+    display: block;
+}
+.ball{
+    width: 230px;
+}
+.mrg{
+    margin-top: 10px;
+}
+}

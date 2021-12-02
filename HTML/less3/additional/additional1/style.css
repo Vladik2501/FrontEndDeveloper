@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     border: 5px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .header{
     width: 900px;
