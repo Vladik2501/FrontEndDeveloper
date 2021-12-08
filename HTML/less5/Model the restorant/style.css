@@ -1,0 +1,116 @@
+.header {
+    height: 100vh;
+    background: url("img/hero image (1).png") no-repeat center/cover;
+}
+
+.div_item a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.div_item img {
+    width: 13px;
+    height: 13px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header_top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    column-gap: 23px;
+}
+
+.header_menu {
+    align-items: center;
+    display: flex;
+    padding-right: 25px;
+    height: 70px;
+    column-gap: 35px;
+}
+
+.header_phone {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding-left: 15px;
+    border-left: 2px solid white;
+}
+
+.phone_contact {
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+
+.phone_contact p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    width: 155px;
+}
+
+.phone_contact button {
+    width: 157px;
+    height: 47px;
+    left: 1118px;
+    top: 59px;
+    background: #FF7400;
+    color: white;
+    border: 1px solid #FF7400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header_title h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+
+.header_title h1 {
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+.header_title p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.header_title{
+font-weight: normal;
+    margin-top: 203px;
+    color: #D67E35;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_title p::before,
+.header_title p::after{
+    content:"";
+    display: block;
+    width:61px ;
+    height:2px ;
+    background: white;
+}
