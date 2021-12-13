@@ -1,0 +1,108 @@
+@media screen and (max-width: 375px){
+    .Logo img{
+width: 75px;
+        height: 47px;
+    }
+    .phone_contact{
+        flex-direction: column;
+        display: flex;
+    }
+.header_menu{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 65px;
+    background: black;
+    height: 93vh;
+    width: 96%;
+    left: -4px;
+    padding-top: 50px;
+}
+.header_contact{
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 25px;
+    justify-content: center;
+    padding-top: 500px ;
+}
+.header_phone{
+    border: none;
+}
+.items{
+    flex-direction: column;
+    column-gap: 15px;
+}
+.wrapper{
+    max-width: 340px;
+    padding: 0 10px;
+}
+.header_top{
+    padding-top: 20px;
+    position: relative;
+}
+.nav__btn_mobile{
+    display: flex;
+}
+.header_title h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+    .header_title h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+.header_main{
+    padding-top: 100px;
+}
+.history{
+    width: 350px;
+}
+    .header_title p::before,
+    .header_title p::after {
+        content: "";
+        display: block;
+        width: 45px;
+    }
+.header_title{
+    padding-left: 0;
+
+}
+.card{
+    width: 325px;
+    height: 276px;
+
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    padding-top: 150px;
+}
+.block_of_history_and_cards{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.image img{
+    width: 305px;
+height: 310px;
+}
+.image{
+    padding: 0;
+}
+.charge_of_products p {
+    font-size:40px ;
+}
+.charge_of_products h2 {
+    font-size:30px ;
+}
+.history{
+    padding-top: 725px;
+}
+}
